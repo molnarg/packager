@@ -129,6 +129,7 @@
           match=""
           short=""
           desc="" />
+	<p:define name="__ENABLE_UIRECORDER_HOOK" />
         <!--p:define name="__JSPLITTER"
           match="a:splitter"
           short=""
@@ -1107,6 +1108,7 @@
           short="Virtual viewport"
           desc="viewport"
           requires="__WITH_MULTISELECT" />
+	<p:define name="__ENABLE_VIRTUALDATASET" />
         <p:define name="__WITH_XFORMS"
           match=""
           short="XForms support"

@@ -18,11 +18,10 @@
           group    = "apf"
           out      = "{cwd}/build/apf_release.js"
           filehead = "1" />
-        <!--p:compress
+        <p:compress
           cmd      = "yuicompressor"
           in       = "{cwd}/build/apf_release.js"
           out      = "{cwd}/build/apf_release.js" />
--->
     </p:process>
 
     <p:files>
@@ -117,9 +116,9 @@
         <p:define name="__WITH_ENTITY_ENCODING" value="1" />
         <p:define name="__WITH_EVENT_BUBBLING" value="1" />
         <p:define name="__WITH_FOCUS" value="1" />
-        <!--p:define name="__WITH_WINDOW_FOCUS" value="1" /-->
+        <p:define name="__WITH_WINDOW_FOCUS" value="1" />
         <p:define name="__WITH_HOTKEY" value="1" />
-        <!--p:define name="__WITH_HOTKEY_PROPERTY" value="1" /-->
+        <p:define name="__WITH_HOTKEY_PROPERTY" value="1" />
         <p:define name="__WITH_INCLUDES" value="1" />
         <p:define name="__WITH_INLINE_DATABINDING" value="1" />
         <!--p:define name="__WITH_AML_BINDINGS" value="1" /-->
